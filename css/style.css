@@ -23,6 +23,15 @@ button {
     border: none;
     align-self: flex-start;
 }
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    min-height: 100px;
+    background-color: crimson;
+    padding: 10px;
+}
+
 /*---- Header*/
 header {
     width: 100%;
@@ -44,6 +53,7 @@ header {
 
 /*---- Main*/
 
+/*-- Jumbo*/
 .background_jumbo {
     background-color: #b4d0e7;
     padding-top: 100px;
@@ -75,4 +85,44 @@ header {
 
 #downs_arrow {
     font-size: 50px;
+}
+
+/*--- Piano Business*/
+
+
+
+.container> h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.fatturazione {
+    margin-bottom: 50px;
+}
+
+.cards_business_p {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.card_bp {
+    background-color: #09ff00b7;
+    border: 1px solid grey;
+    padding: 5px;
+    height: 800px;
+    width: calc(100%/3);    
+}
+
+.card_our_team {
+    width: 100%;
+    min-height: 200px;
+    padding: 5px;
+}
+
+.title_card {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid grey;
 }

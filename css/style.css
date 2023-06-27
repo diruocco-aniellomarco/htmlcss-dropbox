@@ -13,7 +13,7 @@
 
 .link_reset {
     text-decoration: none;
-    color: black;
+    color: currentColor;
 }
 
 button {
@@ -28,28 +28,32 @@ button {
     max-width: 1000px;
     margin: 50px auto;
     min-height: 100px;
-    background-color: crimson;
+    /* background-color: crimson; */
     padding: 10px;
 }
 
 /*---- Header*/
 header {
     width: 100%;
-    height: 50px;
+    height: 80px;
     padding: 15px 0;
     background-color: white;
     position: fixed;
+    align-items: center;
 
 }
 
 .link_header {
     list-style: none;
+    /* align-items: center; */
 }
 
 .link_header>li {
     display: inline-block;
     margin: 0 20px
 }
+
+
 
 /*---- Main*/
 
@@ -83,46 +87,82 @@ header {
     flex-direction: column;
 }
 
-#downs_arrow {
+.downs_arrow {
     font-size: 50px;
+    margin-top: auto;
 }
 
 /*--- Piano Business*/
 
 
-
-.container> h2 {
-    font-size: 40px;
+.row_fatturazione {
     margin-bottom: 50px;
 }
-
-.fatturazione {
+.row_title {
     margin-bottom: 50px;
 }
-
-.cards_business_p {
+.row_bp {
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
-
+    column-gap:30px;
+    flex-wrap: wrap;
+    row-gap: 30px;
 }
 
-.card_bp {
-    background-color: #09ff00b7;
-    border: 1px solid grey;
-    padding: 5px;
-    height: 800px;
-    width: calc(100%/3);    
+.col-33 {
+    max-width: calc((100% / 3) - 20px);     
 }
 
-.card_our_team {
+.col-max {
     width: 100%;
-    min-height: 200px;
-    padding: 5px;
 }
 
-.title_card {
+.intestazione {
     text-align: center;
+    border: 1px solid #d6d6d9;
+    padding:10px;
+}
+
+.offer-details {
+    padding: 30px;
+    border: 1px solid #d6d6d9;
+    border-top: none;
+}
+.offer-details>* {
+    margin-bottom: 30px;
+}
+.offer-details::after {
+    content: '';
+}
+.little-bord {
+    width: calc(100%/5);
+    border-bottom:  1px solid #d6d6d9;
+}
+
+.bp-list1 {
+    max-width:50%;
+}
+.row-our-team {
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px;
-    border: 1px solid grey;
+    border: 1px solid #d6d6d9;
+    border-top: none;
+    row-gap: 10px;
+}
+.card_ot-66 {
+    width: calc((100% / 3) * 2);
+    padding: 10px;
+}
+
+.card_ot-33 {
+    width: calc(100%/3);
+    padding: 10px;
+}
+.button_center {
+    width: 100%;
+    text-align: center;
+}
+
+.smal_icon {
+    font-size: small;
 }

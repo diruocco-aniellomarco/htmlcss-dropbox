@@ -45,7 +45,7 @@ header {
 
 .link_header {
     list-style: none;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .link_header>li {
@@ -53,6 +53,9 @@ header {
     margin: 0 20px
 }
 
+#logo-drop {
+    display: block;
+}
 
 
 /*---- Main*/

@@ -189,3 +189,18 @@ header {
 .benefit_list li,.benefit_list h4 { 
     margin-bottom: 20px;
 }
+
+/* partent dropbox */
+
+.partner-66 {
+    width: 60%;
+}
+.partner-33 {
+    width: 40%;
+    padding: 50px;
+}
+
+.partner-66>img {
+    width: 100%;
+}
+

@@ -212,3 +212,28 @@ header {
 .partner-33>* {
     margin-bottom: 30px;
 }
+
+
+/* Operazioni possibili con Dropbox */
+
+.row_cards_op {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-op {
+    width: calc((100%/3) - 20px); 
+    flex-direction: column;
+}
+.card-op>img {
+    width: 100%;
+}
+
+.card-op>h2 {
+    margin: 20px 0;
+}
+
+.row_title_op {
+    font-size: 25px;
+    margin-bottom: 50px;
+}

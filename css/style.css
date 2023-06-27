@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+html {
+    font-family: 'Open Sans', sans-serif;
+}
 .flex {
     display: flex;
 }
@@ -133,8 +135,18 @@ header {
 .offer-details>* {
     margin-bottom: 30px;
 }
-.offer-details::after {
-    content: '';
+
+.name_cost>* {
+    margin-bottom: 15px;
+}
+
+.name_cost>h4 {
+    font-size: 13px;
+    margin-bottom: 15;
+}
+.name_cost>p {
+    color: #a1968a;
+    font-size: 13px;
 }
 .little-bord {
     width: calc(100%/5);
@@ -168,4 +180,12 @@ header {
 
 .smal_icon {
     font-size: small;
+}
+
+.title-list {
+    font-weight: bold;
+}
+
+.benefit_list li,.benefit_list h4 { 
+    margin-bottom: 20px;
 }

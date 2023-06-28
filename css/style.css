@@ -237,3 +237,28 @@ header {
     font-size: 25px;
     margin-bottom: 50px;
 }
+
+ /* Quanti usano Dropbox */
+
+ .row-many-use {
+    width: calc((100%/3) * 2);
+ }
+ .row-many-use>h1 {
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+ .row-many-use>* {
+    margin-bottom: 50px;
+ }
+
+ /* aziende affiliate */
+
+ .container-100,
+ .row_affiliates {
+    width: 100%;
+ }
+
+ .col_affiliates {
+    width: calc(100%/3);
+ }

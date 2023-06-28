@@ -102,6 +102,16 @@ header {
 
 .row_fatturazione {
     margin-bottom: 50px;
+    gap: 8px;
+    align-items: center;
+}
+.radio_fatturazione {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    box-shadow: 0px 0px 0px 4px #0464ff;
+    border-radius: 50%;
 }
 .row_title {
     margin-bottom: 50px;

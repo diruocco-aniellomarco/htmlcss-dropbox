@@ -36,6 +36,7 @@ button {
     padding: 10px;
 }
 
+
 /*---- Header*/
 header {
     width: 100%;
@@ -409,4 +410,57 @@ main {
 
 
 /* FOOTER */
+footer {
+    background-color: black;
+    color: #fff5f9;
 
+}
+
+.footer_row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:40px;
+}
+
+
+
+.footer_row a {
+    display: block;
+}   
+
+
+.footer-conteiner {
+    padding: 50px 0;
+}
+
+.footer_title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.footer_row ul {
+    margin-bottom: 40px;
+    line-height: 50px;
+}
+
+.footer_list {
+    width: calc((100% - 160px) / 5);
+    display: inline-block;
+}
+
+.footer_language {
+    color: #949494;
+    
+}
+
+.footer_language::before {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #949494;
+    margin-bottom: 50px;
+}

@@ -30,7 +30,7 @@ button {
 
 .container {
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 0px auto;
     min-height: 100px;
     /* background-color: crimson; */
     padding: 10px;
@@ -63,7 +63,11 @@ header {
 
 
 /*---- Main*/
-
+main {
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+}
 /*-- Jumbo*/
 .background_jumbo {
     background-color: #b4d0e7;
@@ -284,10 +288,11 @@ header {
 
  /* aziende affiliate */
 
- .container-100,
+ 
  .row_affiliates {
     width: 100%;
     display: flex;
+    margin-bottom: 0;
 }
 
  .col_affiliates {
@@ -353,4 +358,55 @@ header {
  .card-aff-8 {
     background-color: #ffd830;
  }
- 
+
+ /* Porta Dropbox in azienda */
+
+ .entra-in-drop {
+    background-color: #b4d0e7;  
+ }
+
+ .free-trial {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 100px 0;
+    align-items: center;
+ }
+
+ .title_free-trial {
+    font-size: 40px;
+    color: #60072a;
+    font-weight: 1000;
+    width: 50%;
+ }
+
+ .link_free-trial {
+    padding: 10px 40px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: currentColor;
+ }
+
+/* FAQ */
+.faq {
+    margin-bottom: 100px;
+}
+
+
+ .row-faq>p,
+ .row-faq li {
+    border-bottom: 1px solid #9f9f9f;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    font-weight: bolder;    
+}
+
+.row-faq>p {
+    font-size:40px ;
+    
+}
+
+
+/* FOOTER */
+

@@ -336,6 +336,7 @@ main {
 /* Colori sfondi card */
  .card-aff-1 {
     background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
  }
  .card-aff-2 {
     background-color: #61082b;
